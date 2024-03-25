@@ -1,0 +1,19 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+  "code": "meme",
+  "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}
+
+###
+
+GET http://localhost:3333/api/links
+
+###
+
+GET http://localhost:3333/meme
+
+###
+
+GET http://localhost:3333/api/metrics
